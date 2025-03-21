@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Página Login 2   </title>
+    <link rel="stylesheet" href="css_do_login_teste_2.css"/>
+</head> 
+<body> 
+ <!--Muito importante, lógica de formulários, Tags novas-->
+    <h2>Área de Cadastro</h2>
+
+    <form method="post" action="../teste1/teste_1.html" enctype="multipart/form-data">  
+            <label>
+                Nome Completo<br/>
+                <input type="text" required minlength="5" maxlength="50" autofocus >
+            </label><br/>
+            
+            <label>
+                E-mail<br/>
+                <input type="email">
+            </label><br/>
+            
+            <label>
+                Senha<br/>
+                <input type="password" required>
+            </label><br/>
+        <label><br/>
+            Data de Nascimento<br/><br/>
+        <input type="date" min="2000-01-01">
+        </label><br/>
+        
+        <p>Gênero</p>
+        <input type="radio" name="genero"/>
+        Masculino
+        <input type="radio" name="genero"/>
+        Feminino
+        <br/><br/>
+
+        <label>
+            Sobre Você<br/>
+            <textarea name="descricao"></textarea>
+        </label><br/>
+
+        <label>
+            Categoria do Usuário:<br/>
+            <select name="categoria">
+                <option></option>
+                <option value="1">Usuário Padrão</option>
+                <option value="2">Administrador</option>
+                <option value="3">Perdido</option>
+            </select>
+        </label><br/>
+        
+        <label>
+            Foto de Perfil<br/><br/>
+            <input type="file" name="fotodeperfil" accept="image/*">
+        </label><br/>
+
+        <label>
+            <input type="checkbox"/>
+            Eu declaro que li e aceito os <a href="termos.condições" target="_blank" class="termoslink">termos de uso e condições.</a>
+        </label><br/><br/>
+
+        <button>Cadastrar</button>
+
+    </form>
+
+    <h2>Área de Login</h2>
+    
+    <fieldset>
+        <legend>Dados de Login</legend>
+        <form action="../teste1/teste_1.html" method="post">
+            <label>
+                Email<br/>
+                <input type="email" required/>
+            </label><br/>
+            <label>
+                Senha<br/>
+                <input type="password"/>
+            </label><br/>
+            
+            <label>
+                Idade:<br/>
+                <input type="number" name="age" min="18" max="100">
+            </label><br/><br/>
+            <button>Entrar</button>
+        </form>
+    </fieldset>
+    <!--Type Hidden-->
+    <form action="../teste2/teste_2.html" method="get">
+        <input type="hidden" name="country" value="BR" />
+        <fieldset>
+            <legend>Teste Type Hidden</legend>
+             <label>
+                Primeiro Nome<br/>
+                <input type="text" name="firstname" placeholder="Pedro" required/>
+            </label><br/>
+        
+            <label>
+                Sobrenome<br/>
+                <input type="text" name="lastname" placeholder="Monteiro"/>
+            </label><br/><br/>
+            <input type="submit" />
+        </fieldset>
+    </form>    
+</body>
+</body>
+</html>

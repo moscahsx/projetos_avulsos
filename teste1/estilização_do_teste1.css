@@ -1,0 +1,134 @@
+#Título_do_Site {
+    color: blue;
+    font-size: 40px;
+}
+
+.subtitulo{
+    color: goldenrod
+}
+
+#link_meu_canal {
+    font-size: 30px;
+    color: green;
+}
+
+#firstimg {
+    width: 250px;
+    background-color: #0ff448;
+    border: 6px solid darkgoldenrod;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+#cssform1{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 1px;
+}
+#cssform2{
+    margin: 0px;
+}
+
+
+#seleçãocss, .seleçãocss {
+    color:goldenrod;
+    font-size: 30px;
+    
+}
+
+.seleçãocss:hover{
+    color:red;
+}
+
+#junção li {
+    font-size:25px;
+}
+
+.cobaiadecor1{
+    font-size: 30px;
+    background-color:#2f8aa2;
+    color:rgb(0 , 0 , 0);
+}
+
+.cobaiadeborda1{
+    font-size: 25px;
+    border:6px groove #00f
+}
+
+.cobaiadeborda2{
+    font-size: 40px;
+    background-color:rgb(100 , 56 , 74);
+    border-radius :20px;
+    border: 5px solid #0ff448;
+}
+
+#elementos3{
+    color:darkgreen;
+    background-color: black;
+    border: 3px groove #00f;
+    border-radius: 3px;
+}
+.elemento3 {
+    font-size: 25px;
+}
+
+#cssform4{
+    background-color: #aaff55;
+    color: darkred;
+    border: 5px groove black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 350px;
+    margin-right: 360px;
+    padding: 10px;
+}
+
+#circulo{
+    background-color: #0ff448;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    border: 20px groove pink;
+}
+
+#quadrado{
+    box-sizing:border-box;
+    background-color: #00ff00 ; 
+    width: 400px;
+    height: 400px;
+    border: 10px groove #000;
+    padding : 100px;
+    margin: 30px;
+}
+
+#lembra{
+    margin-left: 550px;
+}
+
+.tabela {
+    width: 500px;
+    border: 2px groove #000;
+}
+table thead{
+    background-color: #0f0;
+}
+table tbody{
+    background-color:#00f;
+}
+
+th, td {
+    padding: 10px;
+    text-align:left;
+    border:1px solid transparent ;
+    border-radius: 5px;
+}
+
+td{
+    border:2px groove #ccc;
+    border-radius: 10px;
+}
+
+tbody td:hover{
+    background-color:#eee;
+}

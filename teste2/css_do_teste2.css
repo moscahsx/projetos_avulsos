@@ -1,0 +1,164 @@
+body{
+    margin:10px;
+}
+
+#titulo1{
+    background-color: rgb(0, 0, 0);
+    color:darkgreen;
+    float: left;
+    
+}
+
+#logoyt{
+    width:300px;
+    
+}
+
+.link{
+    color:blue;
+    font-size:25px;
+}
+
+.link:hover{
+    color:red;
+}
+
+/*Código p/ formatação do texto CSS--> */
+
+.jacquard-24-regular {
+    font-family: "Jacquard 24", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .delicious-handrawn-regular {
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+.lipsum{
+    
+    font-size:20px;
+
+    font-weight: normal;
+
+    font-family:serif, arial, helvetica;
+
+    text-align:left;
+
+    letter-spacing: 0px;
+
+    word-spacing: 0px;
+
+    text-transform: none;
+    
+    line-height: 30px;
+
+    text-shadow:0px 1px 2px black ;
+
+    font-family:'Jacquard 24';
+}
+
+.ttlipsum{
+    font-size: 50px;
+    font-family:'Delicious Handrawn' ;
+}
+
+#lipsumlink{
+    text-decoration:none;
+}
+
+#lipsumlink:hover{
+    text-decoration:underline; 
+}
+/* Unidade de medida importante= Vh,Vw */
+.conteiner{
+    width: 100vh;
+    height: 200px;
+    background-color: #ccc;
+    border: 2px groove black;
+    
+    font-family:'Delicious Handrawn' ;
+    font-size: 40px;
+
+    color: teal;
+
+}
+
+.conteiner strong{
+    color: black;
+}
+
+.box{
+    background-color: purple;
+
+    background:linear-gradient(90deg, black, purple);
+
+
+    width: 50%;
+    height: 200px;
+
+    transition: all 300ms linear;
+}
+.box:hover{
+    height: 400px;
+    background:linear-gradient(180deg, black, purple);
+}
+
+/*object-fit:bla bla bla */
+.dogcoringano{
+    width: 500px;
+    height: 700px;
+    object-fit: contain;
+}
+.spann{
+    background-color: red;
+    font-size: 30px;
+    float:right ;
+}
+/* CSS de um elemento flutuante legal*/
+.flutuante1{
+    font-size: 30px;
+    text-decoration: none;
+    font-family:"Jacquard 24" ;
+
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.b7web{
+    height: 100px;
+    position: fixed;
+    top: 550px;
+    left: 1200px;
+    
+}
+/* CSS da animação*/
+ @keyframes bolinha{
+    0%
+    { background-color: red; top:0px;right: 0px; box-shadow: -10px 10px 5px black ;}
+    25%
+    { background-color: blue; top: 0px; right: 200px;box-shadow: 10px 10px 5px black ;}
+    50%
+    { background-color: green; top: 200px; right: 200px; box-shadow: -10px -10px 5px black ;}
+    75% 
+    { background-color: white; top: 200px; right: 0px; box-shadow: -10px -10px 5px black ;}
+    100%
+    { background-color: yellow; top: 0px; right: 0px;box-shadow: -10px 10px 5px black ;}
+}
+
+
+
+.bolinha{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    animation-name: bolinha;
+    animation-duration:1s ;
+    animation-iteration-count: infinite ;
+    border: 1px groove black;
+    box-shadow: -10px 10px 5px black ;
+}

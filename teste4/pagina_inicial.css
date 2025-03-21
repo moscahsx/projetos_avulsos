@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+    background-color: rgb(77, 0, 77);
+}
+
+.stalinist-one-regular {
+    font-family: "Stalinist One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.titulo1{
+    background:linear-gradient(#770777,black);
+    margin: 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+
+    border: 1px solid #000;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius:3px;
+
+    color:#000000;
+    font-size:50px ;
+    font-style:italic;
+    font-family: "Stalinist One", serif;
+    text-align: left;
+    text-shadow: 10px 1px 10px yellow;
+}
+
+
+.subtitulo1{
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color:#000;
+    font-size:22px;
+    font-family:"Stalinist One", serif ;
+    font-weight: 500;
+    text-shadow:1px 1px 5px goldenrod ;
+
+    background-color:rgb(165, 165, 165) ;
+
+}
+
+.texto1{
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color:#000;
+    font-family:"Stalinist One", serif ;
+    font-weight: 100;
+    text-align: left;
+    text-shadow: 1px 0px 5px goldenrod;
+
+    background-color:rgb(165, 165, 165) ;
+
+}
+
+
+.link1{
+    text-decoration: none;
+    transition: all 2s linear;
+}
+.link1:hover{
+    color:goldenrod;
+    text-decoration: underline;
+}
+#pgt1:hover{
+    color: rgb(196, 147, 25);
+    text-shadow: 10px 1px 10px #000;
+}
+#pgt1 {
+    display: inline; /* Torna o <h3> um elemento em linha */
+    font-size: 40px;
+    color: #000;
+    font-family:"Stalinist One", serif ;
+    text-shadow: 5px 1px 10px goldenrod ;
+
+}
+
+
+#dog{
+    height: 300px;
+}
+
+
+.link2{
+    text-decoration: none;
+}
+.link2:hover{
+    color:goldenrod;
+    text-decoration:underline;
+}
+#pgt2{
+    display: inline;
+    font-size:40px;
+    color: #000;
+    font-family:"Stalinist One", serif ;
+    text-shadow: 5px 1px 10px goldenrod;
+}
+#pgt2:hover{
+    color:rgb(196, 147, 25);
+    text-shadow: 10px 1px 10px #000;
+}
+
+#pgl{
+    display: inline;
+    font-size: 40px;
+    color:#000;
+    font-family: "Stalinist One", serif;
+    text-shadow: 5px 1px 10px goldenrod;
+}
+#pgl:hover{
+    color: rgb(196, 147, 25);
+    text-shadow: 10px 1px 10px #000;
+}
+#imglogin{
+    width: 300px;
+}

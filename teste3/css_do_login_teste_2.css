@@ -1,0 +1,47 @@
+body{
+    margin-left: 20px;
+}
+
+label{
+    display:inline-block;
+    margin-top: 10px;
+}
+
+input[type=text],[type=password],[type=number],[type=email],select {
+    padding: 1px;
+    width: 250px;
+    font-size: 13px;
+    border: 1px solid #777;
+    outline: 1;
+    margin-top: 5px;
+}
+
+textarea{
+    margin-top: 5px;
+    width: 350px;
+    height: 100px;
+    resize: none;
+}
+
+button{
+    padding: 10px;
+    font-size: 12px;
+    box-shadow: 1px 1px 5px #000;
+    border: 1px solid #777;
+    border-radius: 10px;
+    width: 80px;
+    background-color: #eee;
+}
+button:hover{
+    background-color: #ccc;
+}
+fieldset{
+    background-color: #eee;
+    margin-bottom:20px;
+    border: 2px groove black;
+}
+legend{
+    background-color:black;
+    padding: 5px;
+    color:white;
+}
