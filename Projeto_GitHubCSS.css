@@ -1,0 +1,242 @@
+* {
+    font-family: serif;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ }
+ /* Área do Menu*/
+
+ .banner_topo{
+    width: 100%;
+    height: 500px;
+ }
+
+ .banner_topo img {
+    width: 100%;
+    height: 500px;
+ }
+
+.topo{
+     height: 80px; 
+     background-color: gray;
+     width: 100%;
+     position: absolute;
+     color:white;
+     box-shadow:1px 2px 10px black ;
+     text-shadow: 1px 1px 3px black;
+     transition: all 300ms linear;
+}
+.topo:hover{
+    background-color: transparent;
+    color: black;
+    transition: all 300ms linear;
+    box-shadow: none;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+.marca {
+   float:left;
+   font-size: 30px;
+   line-height: 80px;
+   margin-left:20px;
+   cursor: pointer;
+   
+}
+
+.menu{
+    height: 80px;
+    width: 40%;
+    float: right;
+    font-size: 20px;
+    
+}
+.menu ul, 
+.menu li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+}
+.menu ul{
+    margin-right: 30px;
+}
+.menu li{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+/* Área da Página em sí*/
+
+.conteudo{
+    width: 100%;
+    height: 1200px;
+}
+
+
+.historia{
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+}
+.title_hist{
+    height: 30px;
+    width: 100%;
+}
+
+.title_hist h2{
+    text-align: center;
+    margin-bottom: 0px;
+    align-items: center ;
+    padding-bottom: 10px;
+    font-size: 50px;
+    margin:0px;
+}
+.hist_esq{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.text_hist_esq{
+    margin-top: 30px;
+    padding-top:10px ;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.text_hist_esq p {
+    align-items: center;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+    margin: 0px;
+
+}
+
+.hist_dir{
+    width: 40%;
+    height: 100%;
+    background-color: red;
+    float: right;
+}
+.hist_dir img{
+    width: 100%;
+    height: 100%;
+}
+
+.ministerio{
+    width: 100%;
+    height: 500px;
+    background-color: darkcyan;
+
+    
+}
+.minis_esq{
+    width: 40%;
+    height: 100%;
+    background-color: darkgreen;
+    float:left;
+
+    display: flex;
+    flex-direction: column;
+}
+.minis_esq img {
+    height: 500px;
+    width: 100%;
+}
+.minis_dir{
+    width: 60%;
+    height: 100%;
+    background-color: greenyellow;
+    float: right;
+
+    display: flex;
+    flex-direction: column;
+}
+.title_minis{
+    height: 30px;
+    width: 100%;
+}
+.title_minis h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 50px;
+    margin: 0px;
+} 
+.text_mins{
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text_mins p {
+    align-items: center;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+
+.contribuir{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+.cont_esq{
+    height: 100%;
+    width: 60%;
+    background-color: purple;
+    float: left;
+}
+.cont_dir{
+    height: 100%;
+    width: 40%;
+    background-color: peru;
+    float: right;
+}
+.title_cont{
+    height: 30px;
+    width: 100%;
+}
+.title_cont h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 50px;
+    margin: 0px;
+}
+.text_cont{
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text_cont p {
+    align-items: center;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+    margin:0px;
+}
+.cont_dir img {
+    height: 99%;
+    width: 100%;
+}
