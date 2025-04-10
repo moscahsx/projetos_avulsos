@@ -467,6 +467,9 @@ footer .body_footer1, .body_footer2, .body_footer3 {
   .footer_area {
     flex-direction: column;
   }
+  .article_widget {
+    margin-right: 0;
+  }
 }
 .submenu img {
   display: none;
