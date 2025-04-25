@@ -3,7 +3,6 @@
     box-sizing: border-box;
     max-width: 100%;
     font-family:'Times New Roman', Times, serif;
-    background-color: #1969ebe5;
     color: white;
 }
 body{
@@ -19,9 +18,15 @@ body{
     display: flex;
     height: 100px;
     width: 100%;
-    background-color: #1969ebe5;
-
+    background: radial-gradient(circle,#0062ffe5,#000d22e5);
+    background-size: 600% 600%;
+    animation: moveGrad 10s ease infinite;
 }
+@keyframes moveGrad {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 .topo_int{
     display: flex;
     justify-content: space-between;
@@ -80,6 +85,14 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
+    background: radial-gradient(circle,#0062ffe5,#000d22e5);
+    background-size: 600% 600%;
+  animation: moveGrad 10s ease infinite;
+}
+@keyframes moveGrad {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 .historia {
     display: flex;
@@ -143,6 +156,7 @@ body{
 }
 .title_minis{
     font-size: 40px;
+    text-shadow: 1px 1px 5px black;
 }
 .title_minis h2 {
     margin: 0;
@@ -150,6 +164,7 @@ body{
 .text_mins{ 
     font-size: 20px;
     text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 
 .contribuir{
@@ -165,13 +180,17 @@ body{
 }
 .title_cont{
     font-size: 40px; 
+    text-shadow: 1px 1px 5px black;
 }
 .title_cont h2 {
     margin: 0;
 }
 .text_cont {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    text-shadow: 1px 1px 1px black;
+    word-wrap: break-word;
+    margin-left: 10px;
 }
 .cont_dir {
     display: flex;
@@ -197,6 +216,7 @@ body{
 }
 .titulo_redes h2 {
 
+    text-shadow: 1px 1px 5px black;
 }
 .imgs {
     display: flex;

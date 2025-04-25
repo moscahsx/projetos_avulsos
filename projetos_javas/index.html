@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Estrutura Básica</title>
+    <!--Social Sharing( Importante !!!)-->
+    <meta property="og:url" content="https://www.exemplo.com"/>
+    <meta property="og:type" content="website"/>
+    <!--Responsividade Mobile -->
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href=""/>
+    <!--Java script-->
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js">
+        
+    </script>
+</head>
+<body>
+    <!-- Tags para o motor de busca-->
+    <nav>
+        <h1> Alguns comandos do Javascript</h1>
+        <button onclick="window.location.href = 'http://www.google.com.br';">Ir para o Google</button>
+</br>
+</br>
+        <button onclick="window.location.href = window.location.href">Atualizar página</button>
+</br>
+</br>
+        <div id="area">
+            Alguma coisa
+        </div>
+    </br>
+        <button onclick="document.getElementById('area').innerHTML=prompt('Qual o seu nome ?')">
+            Fazer uma ação
+        </button>
+</br>
+</br>
+    <button onclick="this.innerHTML = prompt('Qual o nome do botão ?')">
+        Fazer Outra ação
+    </button>
+</br>
+</br>
+        <div id="area2">
+            Alguma coisa 2 
+        </div>
+</br>
+</br>
+    <button onclick="fazerAcao('Pedro', 18)">
+        Fazer Outra ação 3
+    </button>
+</br>
+</br>
+        <div id="area3">
+            Alguma coisa 3 
+        </div>
+    </nav>
+    <header>
+        <h2> Ingredientes de um bolo</h2>
+
+        <input type="text" id="ingrediente"/>
+
+        <button onclick="adicionarIngrediente()">Adicionar</button>
+    
+        
+        <ul id="lista">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h3> Operações Matemáticas</h3>
+
+        <input type="text" name="campo1" id="campo1"/>
+        <input type="text" name="campo2" id="campo2"/>
+        <button onclick="somar()">multiplicar</button>
+
+    </header>
+
+    <article></article>
+
+    <footer></footer>
+
+</body>
+</html>
