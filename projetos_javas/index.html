@@ -8,10 +8,9 @@
     <meta property="og:type" content="website"/>
     <!--Responsividade Mobile -->
     <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href=""/>
+    <link rel="stylesheet" href="style.css"/>
     <!--Java script-->
     <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="script.js">
         
     </script>
 </head>
@@ -73,8 +72,20 @@
         <button onclick="somar()">multiplicar</button>
 
     </header>
+    <article>
+        <h1> Joguinho de advinhar o número</h1>
+        <div class="joguinho">
+            <div class="joguinho_cont" onload="reset()">
+                <div id="n1">0</div>
+                <input type="number" id="n2" />
+                <div style="clear: both;"></div>
+            </div>
+                <div class="botao">
+                    <button onclick="verificar()">Verificar</button>
+                </div>
+        </div>
 
-    <article></article>
+    </article>
 
     <footer></footer>
 

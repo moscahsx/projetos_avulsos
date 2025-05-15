@@ -1,0 +1,48 @@
+.joguinho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.joguinho_cont{
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+}
+#n1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  height: 200px;
+  width: 200px;
+  background-color: #cecece;
+  font-size: 30px;
+  border: 2px black solid;
+  margin-left: 10px;
+
+}
+#n2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  height: 200px;
+  width: 200px;
+  background-color:#ffffff ;
+  font-size: 30px;
+  border: 2px black solid;
+  margin-left: 10px;
+}
+.joguinho button {
+  align-self: flex-end;
+}
+.botao button {
+  width: 420px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
